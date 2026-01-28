@@ -3,22 +3,22 @@
         <li t-attf-class="#{_item_class}">
             <t t-if="_txt_elt_content == 'sentence'">
                 <div t-attf-class="s_text_block #{_div_class}" data-name="Text">
-                    <small>Trả hàng miễn phí và giao hàng tiêu chuẩn</small>
+                    <small> Cam kết cuộc gọi video trao đổi trực tiếp, xác thực thông tin rõ ràng, hình ảnh chuẩn thực tế – nói không với sai lệch </small>
                 </div>
             </t>
             <t t-elif="_txt_elt_content == 'list'">
                 <div t-attf-class="s_text_block d-flex flex-column flex-lg-row gap-1 gap-lg-4 align-items-lg-center #{_div_class}" data-name="Text">
                     <small class="d-flex align-items-center">
                         <i class="fa fa-1x fa-fw fa-usd fa-stack me-1"/>
-                        Cam kết giá thấp
-                    </small>
+                        Dịch Vụ trọn gói không thu thêm bất kỳ chi phí nào thanh toán sau khi tận hưởng dịch vụ ! 
+                    </small> 
                     <small class="d-flex align-items-center">
                         <i class="fa fa-1x fa-fw fa-shopping-basket fa-stack me-1"/>
                        Chuyên cung cấp dịch vụ thư giãn trọn gói toàn quốc 
                     </small>
                     <small class="d-flex align-items-center">
                         <i class="fa fa-1x fa-fw fa-truck fa-stack me-1"/>
-                        Giao hàng tiêu chuẩn
+                        Phục Vụ Tận Tâm Cam kết minh bạch – chất lượng – trách nhiệm trong từng dịch vụ. Sự hài lòng của khách hàng chính là thành công của chúng tôi!
                     </small>
                 </div>
             </t>
@@ -30,24 +30,24 @@
                             <span class="o_force_ltr">+</span>
                         </small>
                     </a>
-                    <a href="mailto:vclub@yourcompany.example.com" class="nav-link o_nav-link_secondary">
+                    <a href="mailto:vclud.com.vn@vclud.com.vn.example.com" class="nav-link o_nav-link_secondary">
                         <small>
                             <i class="fa fa-1x fa-fw fa-envelope me-1"/>
-                            info@yourcompany.example.com
+                            vclud.com.vn@vclud.com.vn.
                         </small>
                     </a>
                 </div>
             </t>
             <t t-elif="_txt_elt_content == 'mail'">
                 <div t-attf-class="s_text_block #{_div_class}" data-name="Text">
-                    <a href="mailto:info@yourcompany.example.com" class="nav-link o_nav-link_secondary">
-                        <small><i class="fa fa-1x fa-fw fa-envelope me-1"/> info@yourcompany.example.com</small>
+                    <a href="mailto:vclud.com.vn@vclud.com.vn" class="nav-link o_nav-link_secondary">
+                        <small><i class="fa fa-1x fa-fw fa-envelope me-1"/> vclud.com.vn@vclud.com.vn</small>
                     </a>
                 </div>
             </t>
             <t t-elif="_txt_elt_content == 'mail_stretched'">
                 <div t-attf-class="s_text_block #{_div_class}" data-name="Text">
-                    <a href="tel:+1 555-555-5556" class="nav-link o_nav-link_secondary p-2 o_navlink_background_hover d-flex align-items-center h-100 text-reset">
+                    <a href="tel:+84924812222" class="nav-link o_nav-link_secondary p-2 o_navlink_background_hover d-flex align-items-center h-100 text-reset">
                         <i class="fa fa-1x fa-fw fa-phone me-1"/>
                         <span class="o_force_ltr"><small>+84924812222</small></span>
                     </a>
